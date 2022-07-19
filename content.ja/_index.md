@@ -1,21 +1,28 @@
 ---
-title: Scratch3-Tello
+title: Scratch 3.0でTelloを飛ばそう！ Scratch3-Tello
 type: docs
 bookToc: false
-description: Scratch 3.0 で Tello を飛ばそう！Scratch3-Tello は Scratch 3.0 を用いて Tello をプログラミングできる Scratch Desktop の拡張機能です。
+description: Scratch3-TelloはScratch 3.0を用いてTelloをプログラミングできるScratch Desktopの拡張機能です。
 ---
 
 # Scratch3-Tello
-Scratch 3.0 で Tello を飛ばそう！
+Scratch 3.0でTelloを飛ばそう！
 
 ## Scratch3-Tello とは
-Scratch 3.0 を用いて Tello をプログラミングすることができる、Scratch Desktopの拡張機能です。Tello の開発元である DJI からも、Scratch を使って Tello を飛ばすための拡張機能が配布されていますが、Scratch 3.0 には対応していないため、この拡張機能を作成しました。  
-Scratch3-Tello は**無料**で使用することができます。
+**Scratch 3.0**を用いて**Telloをプログラミング**することができる、Scratch Desktopの拡張機能です。
+
+プログラミング教育で広く使用されているScratch 3.0で動作するため、画面の違いに惑わされることなく、ドローンのプログラミングに集中できます。
+
+### 特徴
+Scratch3-Telloは**無料**で使用することができます。
+使用にあたり許諾や著作権表示は必要ありません。学校やプログラミングスクール、企業の研修で自由に使用することができます。
+
+Scratch 3.0を使用しているため、学習者が画面の違いに惑わされることがありません。
 
 ![スクリーンショット](/images/intro_ja.png)
 
 ## ダウンロード
-GitHub の [Releases](https://github.com/kebhr/scratch3-tello/releases) より、お使いの OS またはアーキテクチャ(32 bit / 64 bit)に合ったファイルをダウンロードしてください。
+GitHubの[Releases](https://github.com/kebhr/scratch3-tello/releases)より、お使いのOSに合ったファイルをダウンロードしてください。
 
 OS 別の導入ガイドはこちらです。
 - [Windows](docs/getting-started/windows)

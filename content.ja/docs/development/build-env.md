@@ -4,8 +4,7 @@ weight: 10
 ---
 
 # 環境構築
-Scratch3-Tello は Scratch に用意された拡張機能の仕組みだけでは動作していません。具体的には、Scratch を構成する `scratch-vm`, `scratch-gui`, `scratch-desktop` に変更を加えています。  
-`scratch3-tello` リポジトリにはそれらの変更を行った差分がファイル単位で格納されています。そのため、このリポジトリをクローンしただけではビルドすることができません。
+`scratch3-tello` リポジトリには `scratch-vm` と `scratch-gui` リポジトリに対して変更を行った差分がファイル単位で格納されています。そのため、このリポジトリをクローンしただけではビルドすることができません。
 
 ## Requirements
 - wget
@@ -34,12 +33,11 @@ $ ./build.sh
 ## Scratch3-Tello の起動
 ```bash
 $ cd scratch-desktop
-$ npm run build-gui
 $ npm start
 ```
 
 ## パッケージを作成
 ```bash
 $ cd scratch-desktop
-$ npm run dist:dir
+$ npm run dist
 ```

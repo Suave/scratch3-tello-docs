@@ -4,8 +4,7 @@ weight: 10
 ---
 
 # Build Environment
-Scratch3-Tello does not work only with the extension mechanism provided in Scratch. In fact, I've made changes to `scratch-vm`, `scratch-gui`, and `scratch-desktop` that make up Scratch.  
-The `scratch3-tello` repository contains the diffs of those changes made, file by file. Therefore, you cannot build just by cloning this repository.
+The `scratch3-tello` repository contains the diffs between the `scratch-vm` and `scratch-gui` repositories in file units. Therefore, you cannot just clone this repository and build it.
 
 ## Requirements
 - wget

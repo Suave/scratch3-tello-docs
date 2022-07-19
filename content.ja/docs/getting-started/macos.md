@@ -1,16 +1,21 @@
 ---
-title: macOS の場合
+title: macOSの場合
 weight: 20
 bookToc: false
 ---
 
-# macOS の場合
+# macOSの場合
 
 ## ダウンロード
-GitHub の [Releases](https://github.com/kebhr/scratch3-tello/releases) から、`mac.zip` をダウンロードします。
+GitHubの[Releases](https://github.com/kebhr/scratch3-tello/releases)から、`macos.zip` をダウンロードします。
 
 ## 展開
-ダウンロードした zip ファイルを任意の場所に展開してください。
+ダウンロードしたzipファイルを任意の場所に展開してください。
 
 ## 実行
-**Telloと接続してから**、展開したフォルダに含まれている `Scratch Desktop.app` を起動してください。
+**Telloと接続してから**、展開したフォルダに含まれている `Scratch3-Tello.app` を起動してください。
+
+初回のみ、macOSのセキュリティ機能により、ダブルクリックでアプリを開くことはできません。
+Controlキーを押しながらファイルをクリックし、表示されたメニューから「開く」を選択することで、開くことができます。
+
+![macOSでの起動方法](/images/macos_launch.png)
