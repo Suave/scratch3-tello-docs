@@ -98,6 +98,18 @@
                 href="https://scratch3-tello.app/ja/docs/privacy/"
                 />
   </url><url>
+    <loc>https://scratch3-tello.app/ja/docs/contact/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://scratch3-tello.app/docs/contact/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://scratch3-tello.app/ja/docs/contact/"
+                />
+  </url><url>
     <loc>https://scratch3-tello.app/ja/categories/</loc>
     <xhtml:link
                 rel="alternate"
