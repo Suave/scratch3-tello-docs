@@ -18,13 +18,13 @@ $ mkdir scratch3-tello
 $ cd scratch3-tello
 ```
 
-## Download the script to build the environment
+## Download the script to build an environment
 ```bash
 $ wget https://raw.githubusercontent.com/kebhr/scratch3-tello/master/build.sh
 $ chmod +x build.sh
 ```
 
-## Run the script to build the environment
+## Run the script to build an environment
 ```bash
 $ ./build.sh
 ```
@@ -34,7 +34,6 @@ Running `build.sh` will automatically clone `scratch-vm`, `scratch-gui`, and `sc
 ## Start Scratch3-Tello
 ```bash
 $ cd scratch-desktop
-$ npm run build-gui
 $ npm start
 ```
 
