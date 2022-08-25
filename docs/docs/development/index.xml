@@ -13,7 +13,7 @@
       
       <guid>https://scratch3-tello.app/docs/development/build-env/</guid>
       <description>Build Environment # The scratch3-tello repository contains the diffs between the scratch-vm and scratch-gui repositories in file units. Therefore, you cannot just clone this repository and build it.
-Requirements # wget git node.js npm Create a working folder # $ mkdir scratch3-tello $ cd scratch3-tello Download the script to build the environment # $ wget https://raw.githubusercontent.com/kebhr/scratch3-tello/master/build.sh $ chmod +x build.sh Run the script to build the environment # $ .</description>
+Requirements # wget git node.js npm Create a working folder # $ mkdir scratch3-tello $ cd scratch3-tello Download the script to build an environment # $ wget https://raw.githubusercontent.com/kebhr/scratch3-tello/master/build.sh $ chmod +x build.sh Run the script to build an environment # $ .</description>
     </item>
     
     <item>
