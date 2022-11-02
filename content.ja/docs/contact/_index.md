@@ -6,6 +6,6 @@ bookToc: false
 
 # お問い合わせ
 
-お問い合わせは[こちらのフォーム](https://docs.google.com/forms/d/e/1FAIpQLScoX0anufssjZboCfd4y3eZU0qT87GMDammEpKtSMretOI9-A/viewform)よりお受けしております。
+お問い合わせ・ご連絡は[こちらのフォーム](https://docs.google.com/forms/d/1peHY6tAao79wq-6STTTfJqt-zgUai9FapWJELbQE3ck/viewform)よりお受けしております。
 
-すべてのお問い合わせには返信できない場合があります。
+数日以内に返信しますが、すべてのお問い合わせには返信できない場合があります。

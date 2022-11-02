@@ -8,4 +8,4 @@ bookToc: false
 
 Please fill [this form](https://docs.google.com/forms/d/e/1FAIpQLScoX0anufssjZboCfd4y3eZU0qT87GMDammEpKtSMretOI9-A/viewform) to contact me.
 
-I may not be able to reply to all inquiries.
+I will reply within a few days, but I may not be able to reply to all inquiries.

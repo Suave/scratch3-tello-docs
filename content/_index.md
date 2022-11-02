@@ -30,3 +30,7 @@ Click here for OS-specific installation guides.
 - [Windows](docs/getting-started/windows)
 - [macOS](docs/getting-started/macos)
 - [Linux](docs/getting-started/linux)
+
+## Sponsor
+I am looking for sponsors starting at $5/month for the ongoing development of Scratch3-Tello.  
+Please see [Patreon](https://www.patreon.com/scratch3_tello?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=creatorshare_creator) if you are interested in becoming a sponsor.
