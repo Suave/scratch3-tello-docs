@@ -2,7 +2,7 @@
 title: Let's fly Tello with Scratch 3.0! Scratch3-Tello
 type: docs
 bookToc: false
-description: Scratch3-Tello is an extension to Scratch Desktop for coding Tello using Scratch 3.0.
+description: Scratch3-Tello is software that allows you to program Tello using Scratch 3.0.
 ---
 
 # Scratch3-Tello
@@ -11,20 +11,23 @@ Let's fly Tello with Scratch 3.0!
 
 ## About
 
-Scratch3-Tello is an extension to Scratch Desktop that allows you to **code Tello using Scratch 3.0**.
+Scratch3-Tello is software that allows you to program Tello using Scratch 3.0.
 
-Running on Scratch 3.0, widely used in programming education, users can easily focus on programming the drone without being distracted by the differences in the interface.
+It is implemented as an extension of Scratch 3.0, which is widely used in programming education, so there is no need to learn how to use the software and you can concentrate on programming the drone.
 
 ### Features
 Scratch3-Tello is **FREE** to use.
-No permission or copyright notice is required for use. Scratch3-Tello can be used freely in schools, programming schools, and corporate training programs.
+No permission or copyright notice is required for use. It can be used freely in educational activities, workshops, programming schools, and training programs.
 
 By using Scratch 3.0, learners will not be confused by differences in the interface.
+
+It is also compatible with the Tello EDU mission pad.
 
 ![Screenshot](/images/intro_en.png)
 
 ## Download
-Go to [Releases](https://github.com/kebhr/scratch3-tello/releases) on GitHub and download the appropriate file for your OS.
+Go to [Releases](https://github.com/kebhr/scratch3-tello/releases) on GitHub and download the appropriate file for your OS.  
+After launching, click on the blue button in the lower left corner of the screen, then click on the area marked "Tello" to use it.
 
 Click here for OS-specific installation guides.
 - [Windows](docs/getting-started/windows)
