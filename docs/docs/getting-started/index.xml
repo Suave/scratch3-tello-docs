@@ -14,7 +14,8 @@
       <guid>https://scratch3-tello.app/docs/getting-started/windows/</guid>
       <description>For Windows # Download # Go to Releases on GitHub and download the file named windows.zip.
 Extract # Extract the downloaded zip file to a location of your choice.
-Start # After connecting to Tello, launch Scratch3-Tello.exe, which is contained in the extracted folder.</description>
+Launch # After connecting to Tello, launch Scratch3-Tello.exe, which is contained in the extracted folder.
+Troubleshooting # If Tello does not take off after executing the takeoff block, it is possible that a command sent by another block is waiting to be executed.</description>
     </item>
     
     <item>
@@ -25,7 +26,7 @@ Start # After connecting to Tello, launch Scratch3-Tello.exe, which is contained
       <guid>https://scratch3-tello.app/docs/getting-started/macos/</guid>
       <description>For macOS # Download # Go to Releases on GitHub and download the file named macos.zip.
 Extract # Extract the downloaded zip file to a location of your choice.
-Start # After connecting to Tello, launch Scratch Desktop.exe, which is contained in the extracted folder.
+Launch # After connecting to Tello, launch Scratch Desktop.exe, which is contained in the extracted folder.
 For the first time only, due to a security feature of macOS, the application cannot be opened by double-clicking. You can open the file by holding down the Control key, clicking on the file, and selecting &amp;ldquo;Open&amp;rdquo; from the menu that appears.</description>
     </item>
     

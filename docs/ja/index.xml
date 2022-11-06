@@ -14,7 +14,9 @@
       <guid>https://scratch3-tello.app/ja/docs/getting-started/windows/</guid>
       <description>Windowsの場合 # ダウンロード # GitHubのReleasesから、windows.zip をダウンロードします。
 展開 # ダウンロードしたzipファイルを任意の場所に展開してください。
-実行 # Telloと接続してから、展開したフォルダに含まれている Scratch3-Tello.exe を起動してください。</description>
+起動 # Telloと接続してから、展開したフォルダに含まれている Scratch3-Tello.exe を起動してください。
+起動したら、左下の拡張機能ボタンを押し、「Tello」と書かれた拡張機能をクリックしてください。ドローンをプログラミングするためのブロックが表示されます。
+トラブルシューター # 「離陸する」ブロックを実行してもTelloが離陸しない場合は、別のブロックが送信したコマンドが実行待ちになっている可能性があります。「実行待ちのコマンドをクリアする」ブロックを実行することで解決します。</description>
     </item>
     
     <item>
@@ -36,7 +38,7 @@ Scratch3-Tello の起動 # $ cd scratch-desktop $ npm start パッケージを�
       <guid>https://scratch3-tello.app/ja/docs/getting-started/macos/</guid>
       <description>macOSの場合 # ダウンロード # GitHubのReleasesから、macos.zip をダウンロードします。
 展開 # ダウンロードしたzipファイルを任意の場所に展開してください。
-実行 # Telloと接続してから、展開したフォルダに含まれている Scratch3-Tello.app を起動してください。
+起動 # Telloと接続してから、展開したフォルダに含まれている Scratch3-Tello.app を起動してください。
 初回のみ、macOSのセキュリティ機能により、ダブルクリックでアプリを開くことはできません。 Controlキーを押しながらファイルをクリックし、表示されたメニューから「開く」を選択することで、開くことができます。
 起動したら、左下の拡張機能ボタンを押し、「Tello」と書かれた拡張機能をクリックしてください。ドローンをプログラミングするためのブロックが表示されます。
 トラブルシューター # 「離陸する」ブロックを実行してもTelloが離陸しない場合は、別のブロックが送信したコマンドが実行待ちになっている可能性があります。「実行待ちのコマンドをクリアする」ブロックを実行することで解決します。</description>
