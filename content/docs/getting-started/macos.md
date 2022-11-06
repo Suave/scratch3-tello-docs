@@ -12,7 +12,7 @@ Go to [Releases](https://github.com/kebhr/scratch3-tello/releases) on GitHub and
 ## Extract
 Extract the downloaded zip file to a location of your choice.
 
-## Start
+## Launch
 **After connecting to Tello**, launch `Scratch Desktop.exe`, which is contained in the extracted folder.
 
 For the first time only, due to a security feature of macOS, the application cannot be opened by double-clicking.

@@ -27,9 +27,8 @@ It is also compatible with the Tello EDU mission pad.
 
 ## Download
 Go to [Releases](https://github.com/kebhr/scratch3-tello/releases) on GitHub and download the appropriate file for your OS.  
-After launching, click on the blue button in the lower left corner of the screen, then click on the area marked "Tello" to use it.
 
-Click here for OS-specific installation guides.
+The installation guide for each operating system is here. Please be sure to read it as it also includes notes on launching the software.
 - [Windows](docs/getting-started/windows)
 - [macOS](docs/getting-started/macos)
 - [Linux](docs/getting-started/linux)

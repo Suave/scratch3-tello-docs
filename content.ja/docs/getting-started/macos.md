@@ -12,7 +12,7 @@ GitHubの[Releases](https://github.com/kebhr/scratch3-tello/releases)から、`m
 ## 展開
 ダウンロードしたzipファイルを任意の場所に展開してください。
 
-## 実行
+## 起動
 **Telloと接続してから**、展開したフォルダに含まれている `Scratch3-Tello.app` を起動してください。
 
 初回のみ、macOSのセキュリティ機能により、ダブルクリックでアプリを開くことはできません。

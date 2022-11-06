@@ -25,7 +25,6 @@ Tello EDU のミッションパッドにも対応しています。
 
 ## ダウンロード
 GitHubの[Releases](https://github.com/kebhr/scratch3-tello/releases)より、お使いのOSに合ったファイルをダウンロードしてください。  
-起動後に左下の青いボタンをクリックし、「Tello」と書かれている部分をクリックすることで、使用できるようになります。
 
 OS 別の導入ガイドはこちらです。
 - [Windows](docs/getting-started/windows)
