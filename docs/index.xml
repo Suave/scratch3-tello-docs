@@ -46,7 +46,7 @@ For the first time only, due to a security feature of macOS, the application can
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://scratch3-tello.app/docs/development/i18n/</guid>
-      <description>Internationalization # NOTE: Pull-Requests are always welcome to add or update translation. If you can translate but familiar with GitHub, please contact me and I can get your translation into Scratch3-Tello.
+      <description>Internationalization # NOTE: Pull-Requests are always welcome to add or update translation. If you can translate but not familiar with GitHub, please contact me and I can get your translation into Scratch3-Tello.
 Block names are defined in scratch-vm/src/extensions/scratch3_tello/index.js. The message object described in this file will be used by i18n.
 message[&#39;internal block code&#39;][&#39;language code&#39;] is the block name in that language for that block.
 Example # For example, translate the takeoff block into German.</description>
