@@ -12,8 +12,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://scratch3-tello.app/ja/docs/development/build-env/</guid>
-      <description> 環境構築 # scratch3-tello リポジトリには scratch-vm と scratch-gui リポジトリに対して変更を行った差分がファイル単位で格納されています。そのため、このリポジトリをクローンしただけではビルドすることができません。
-Requirements # wget git node.js npm 作業用フォルダの作成 # $ mkdir scratch3-tello $ cd scratch3-tello 環境構築用スクリプトをダウンロードする # $ wget https://raw.githubusercontent.com/kebhr/scratch3-tello/master/build.sh $ chmod +x build.sh 環境構築用スクリプトを実行する # $ ./build.sh build.sh を実行することで、自動的に scratch-vm, scratch-gui, scratch-desktop がクローンされ、scratch3-tello で管理されている差分のファイルが適用されます。
+      <description> 環境構築 # scratch3-tello リポジトリには scratch-vm と scratch-gui リポジトリに対する差分がファイル単位で格納されています。そのため、scratch3-telloをビルドするためには、scratch-vm と scratch-gui をクローンしてから、差分を適用する必要があります。
+Requirements # wget git node.js npm 作業用フォルダの作成 # $ mkdir scratch3-tello $ cd scratch3-tello 環境構築用スクリプトをダウンロードする # $ wget https://raw.githubusercontent.com/kebhr/scratch3-tello/master/build.sh $ chmod +x build.sh 環境構築用スクリプトを実行する # $ ./build.sh build.sh を実行することで、自動的に scratch-vm, scratch-gui, scratch-desktop がクローンされ、scratch3-tello で管理されている変更差分が適用されます。
 Scratch3-Tello の起動 # $ cd scratch-desktop $ npm start パッケージを作成 # $ cd scratch-desktop $ npm run dist </description>
     </item>
     
@@ -23,12 +23,12 @@ Scratch3-Tello の起動 # $ cd scratch-desktop $ npm start パッケージを�
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://scratch3-tello.app/ja/docs/development/i18n/</guid>
-      <description> 多言語対応 # ブロック名は scratch-vm/src/extensions/scratch3_tello/index.js に定義されています。このファイルに記述されている message オブジェクトが i18n に使用されます。
-message[&#39;内部ブロックコード&#39;][&#39;言語コード&#39;] が、そのブロックのその言語でのブロック名です。
+      <description>多言語対応 # ブロック名は scratch-vm/src/extensions/scratch3_tello/index.js に定義されています。このファイルに記述されている message オブジェクトが i18n に使用されます。
+message[&#39;内部ブロックコード&#39;][&#39;言語コード&#39;] が、そのブロックのその言語でのブロック名を表しています。
 翻訳の追加・更新に関して、随時Pull-Requestを受け付けています。
-例 # 離陸する ブロックをドイツ語に翻訳します。現時点では、message[&#39;takeoff&#39;] は次のようになっています。
-const message = { takeoff: { &amp;#39;ja&amp;#39;: &amp;#39;離陸する&amp;#39;, &amp;#39;ja-Hira&amp;#39;: &amp;#39;りりくする&amp;#39;, &amp;#39;en&amp;#39;: &amp;#39;takeoff&amp;#39;, }, ... }; ドイツ語を表す言語コードは de です。message[&#39;takeoff&#39;][&#39;de&#39;] が abfliegen となるように、次のように編集します。
-const message = { takeoff: { &amp;#39;ja&amp;#39;: &amp;#39;離陸する&amp;#39;, &amp;#39;ja-Hira&amp;#39;: &amp;#39;りりくする&amp;#39;, &amp;#39;en&amp;#39;: &amp;#39;takeoff&amp;#39;, &amp;#39;de&amp;#39;: &amp;#39;abfliegen&amp;#39;, }, ... }; </description>
+例 # たとえば、離陸する ブロックをドイツ語に翻訳してみましょう。現時点では、message[&#39;takeoff&#39;] は次のようになっています。
+const message = { takeoff: { &amp;#39;ja&amp;#39;: &amp;#39;離陸する&amp;#39;, &amp;#39;ja-Hira&amp;#39;: &amp;#39;りりくする&amp;#39;, &amp;#39;en&amp;#39;: &amp;#39;takeoff&amp;#39;, }, // ... }; ドイツ語を表す言語コードは de です。message[&#39;takeoff&#39;][&#39;de&#39;] が abheben となるように、次のように編集します。
+const message = { takeoff: { &amp;#39;ja&amp;#39;: &amp;#39;離陸する&amp;#39;, &amp;#39;ja-Hira&amp;#39;: &amp;#39;りりくする&amp;#39;, &amp;#39;en&amp;#39;: &amp;#39;takeoff&amp;#39;, &amp;#39;de&amp;#39;: &amp;#39;abheben&amp;#39;, }, // ... }; これで完了です。</description>
     </item>
     
   </channel>

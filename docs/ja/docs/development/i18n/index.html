@@ -5,19 +5,19 @@
   <meta name="generator" content="Hugo 0.101.0" />
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content=" 多言語対応 # ブロック名は scratch-vm/src/extensions/scratch3_tello/index.js に定義されています。このファイルに記述されている message オブジェクトが i18n に使用されます。
-message[&#39;内部ブロックコード&#39;][&#39;言語コード&#39;] が、そのブロックのその言語でのブロック名です。
+<meta name="description" content="多言語対応 # ブロック名は scratch-vm/src/extensions/scratch3_tello/index.js に定義されています。このファイルに記述されている message オブジェクトが i18n に使用されます。
+message[&#39;内部ブロックコード&#39;][&#39;言語コード&#39;] が、そのブロックのその言語でのブロック名を表しています。
 翻訳の追加・更新に関して、随時Pull-Requestを受け付けています。
-例 # 離陸する ブロックをドイツ語に翻訳します。現時点では、message[&#39;takeoff&#39;] は次のようになっています。
-const message = { takeoff: { &#39;ja&#39;: &#39;離陸する&#39;, &#39;ja-Hira&#39;: &#39;りりくする&#39;, &#39;en&#39;: &#39;takeoff&#39;, }, ... }; ドイツ語を表す言語コードは de です。message[&#39;takeoff&#39;][&#39;de&#39;] が abfliegen となるように、次のように編集します。
-const message = { takeoff: { &#39;ja&#39;: &#39;離陸する&#39;, &#39;ja-Hira&#39;: &#39;りりくする&#39;, &#39;en&#39;: &#39;takeoff&#39;, &#39;de&#39;: &#39;abfliegen&#39;, }, ... }; ">
+例 # たとえば、離陸する ブロックをドイツ語に翻訳してみましょう。現時点では、message[&#39;takeoff&#39;] は次のようになっています。
+const message = { takeoff: { &#39;ja&#39;: &#39;離陸する&#39;, &#39;ja-Hira&#39;: &#39;りりくする&#39;, &#39;en&#39;: &#39;takeoff&#39;, }, // ... }; ドイツ語を表す言語コードは de です。message[&#39;takeoff&#39;][&#39;de&#39;] が abheben となるように、次のように編集します。
+const message = { takeoff: { &#39;ja&#39;: &#39;離陸する&#39;, &#39;ja-Hira&#39;: &#39;りりくする&#39;, &#39;en&#39;: &#39;takeoff&#39;, &#39;de&#39;: &#39;abheben&#39;, }, // ... }; これで完了です。">
 <meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="多言語対応" />
-<meta property="og:description" content=" 多言語対応 # ブロック名は scratch-vm/src/extensions/scratch3_tello/index.js に定義されています。このファイルに記述されている message オブジェクトが i18n に使用されます。
-message[&#39;内部ブロックコード&#39;][&#39;言語コード&#39;] が、そのブロックのその言語でのブロック名です。
+<meta property="og:description" content="多言語対応 # ブロック名は scratch-vm/src/extensions/scratch3_tello/index.js に定義されています。このファイルに記述されている message オブジェクトが i18n に使用されます。
+message[&#39;内部ブロックコード&#39;][&#39;言語コード&#39;] が、そのブロックのその言語でのブロック名を表しています。
 翻訳の追加・更新に関して、随時Pull-Requestを受け付けています。
-例 # 離陸する ブロックをドイツ語に翻訳します。現時点では、message[&#39;takeoff&#39;] は次のようになっています。
-const message = { takeoff: { &#39;ja&#39;: &#39;離陸する&#39;, &#39;ja-Hira&#39;: &#39;りりくする&#39;, &#39;en&#39;: &#39;takeoff&#39;, }, ... }; ドイツ語を表す言語コードは de です。message[&#39;takeoff&#39;][&#39;de&#39;] が abfliegen となるように、次のように編集します。
-const message = { takeoff: { &#39;ja&#39;: &#39;離陸する&#39;, &#39;ja-Hira&#39;: &#39;りりくする&#39;, &#39;en&#39;: &#39;takeoff&#39;, &#39;de&#39;: &#39;abfliegen&#39;, }, ... }; " />
+例 # たとえば、離陸する ブロックをドイツ語に翻訳してみましょう。現時点では、message[&#39;takeoff&#39;] は次のようになっています。
+const message = { takeoff: { &#39;ja&#39;: &#39;離陸する&#39;, &#39;ja-Hira&#39;: &#39;りりくする&#39;, &#39;en&#39;: &#39;takeoff&#39;, }, // ... }; ドイツ語を表す言語コードは de です。message[&#39;takeoff&#39;][&#39;de&#39;] が abheben となるように、次のように編集します。
+const message = { takeoff: { &#39;ja&#39;: &#39;離陸する&#39;, &#39;ja-Hira&#39;: &#39;りりくする&#39;, &#39;en&#39;: &#39;takeoff&#39;, &#39;de&#39;: &#39;abheben&#39;, }, // ... }; これで完了です。" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://scratch3-tello.app/ja/docs/development/i18n/" /><meta property="article:section" content="docs" />
 
@@ -29,7 +29,7 @@ const message = { takeoff: { &#39;ja&#39;: &#39;離陸する&#39;, &#39;ja-Hira&
 <link rel="alternate" hreflang="en" href="https://scratch3-tello.app/docs/development/i18n/" title="Internationalization">
 
 <link rel="stylesheet" href="https://scratch3-tello.app/book.min.e935e20bd0d469378cb482f0958edf258c731a4f895dccd55799c6fbc8043f23.css" integrity="sha256-6TXiC9DUaTeMtILwlY7fJYxzGk&#43;JXczVV5nG&#43;8gEPyM=">
-<script defer src="https://scratch3-tello.app/ja.search.min.de1c76ab23d7451855a567e47b1e20f07a08d2bd85d141515465c5965ff1fa6f.js" integrity="sha256-3hx2qyPXRRhVpWfkex4g8HoI0r2F0UFRVGXFll/x&#43;m8="></script>
+<script defer src="https://scratch3-tello.app/ja.search.min.263a10f55649cfd9c89c69731d057f73f9199a2bce00356690a82496b0e558d7.js" integrity="sha256-JjoQ9VZJz9nInGlzHQV/c/kZmivOADVmkKgklrDlWNc="></script>
 
 <script type="application/javascript">
 var doNotTrack = false;
@@ -278,32 +278,33 @@ https://github.com/alex-shpak/hugo-book
   <a class="anchor" href="#%e5%a4%9a%e8%a8%80%e8%aa%9e%e5%af%be%e5%bf%9c">#</a>
 </h1>
 <p>ブロック名は <a href="https://github.com/kebhr/scratch3-tello/blob/master/scratch-vm/src/extensions/scratch3_tello/index.js">scratch-vm/src/extensions/scratch3_tello/index.js</a> に定義されています。このファイルに記述されている <code>message</code> オブジェクトが i18n に使用されます。</p>
-<p><code>message['内部ブロックコード']['言語コード']</code> が、そのブロックのその言語でのブロック名です。</p>
+<p><code>message['内部ブロックコード']['言語コード']</code> が、そのブロックのその言語でのブロック名を表しています。</p>
 <p>翻訳の追加・更新に関して、随時Pull-Requestを受け付けています。</p>
 <h2 id="例">
   例
   <a class="anchor" href="#%e4%be%8b">#</a>
 </h2>
-<p><code>離陸する</code> ブロックをドイツ語に翻訳します。現時点では、<code>message['takeoff']</code> は次のようになっています。</p>
+<p>たとえば、<code>離陸する</code> ブロックをドイツ語に翻訳してみましょう。現時点では、<code>message['takeoff']</code> は次のようになっています。</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">message</span> <span style="color:#f92672">=</span> {
 </span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">takeoff</span><span style="color:#f92672">:</span> {
 </span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#39;ja&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;離陸する&#39;</span>,
 </span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#39;ja-Hira&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;りりくする&#39;</span>,
 </span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#39;en&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;takeoff&#39;</span>,
 </span></span><span style="display:flex;"><span>    },
-</span></span><span style="display:flex;"><span>    ...
-</span></span><span style="display:flex;"><span>};
-</span></span></code></pre></div><p>ドイツ語を表す言語コードは <code>de</code> です。<code>message['takeoff']['de']</code> が <code>abfliegen</code> となるように、次のように編集します。</p>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// ...
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>};
+</span></span></code></pre></div><p>ドイツ語を表す言語コードは <code>de</code> です。<code>message['takeoff']['de']</code> が <code>abheben</code> となるように、次のように編集します。</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">message</span> <span style="color:#f92672">=</span> {
 </span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">takeoff</span><span style="color:#f92672">:</span> {
 </span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#39;ja&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;離陸する&#39;</span>,
 </span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#39;ja-Hira&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;りりくする&#39;</span>,
 </span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#39;en&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;takeoff&#39;</span>,
-</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#39;de&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;abfliegen&#39;</span>,
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#39;de&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;abheben&#39;</span>,
 </span></span><span style="display:flex;"><span>    },
-</span></span><span style="display:flex;"><span>    ...
-</span></span><span style="display:flex;"><span>};
-</span></span></code></pre></div></article>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// ...
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>};
+</span></span></code></pre></div><p>これで完了です。</p>
+</article>
  
       
 

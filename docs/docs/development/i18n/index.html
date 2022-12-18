@@ -8,12 +8,12 @@
 <meta name="description" content="Internationalization # NOTE: Pull-Requests are always welcome to add or update translation. If you can translate but cannot use GitHub, please contact me and I can get your translation into Scratch3-Tello.
 Block names are defined in scratch-vm/src/extensions/scratch3_tello/index.js. The message object described in this file will be used by i18n.
 message[&#39;internal block code&#39;][&#39;language code&#39;] is the block name in that language for that block.
-Example # Translate the takeoff block into German.">
+Example # For example, translate the takeoff block into German.">
 <meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="Internationalization" />
 <meta property="og:description" content="Internationalization # NOTE: Pull-Requests are always welcome to add or update translation. If you can translate but cannot use GitHub, please contact me and I can get your translation into Scratch3-Tello.
 Block names are defined in scratch-vm/src/extensions/scratch3_tello/index.js. The message object described in this file will be used by i18n.
 message[&#39;internal block code&#39;][&#39;language code&#39;] is the block name in that language for that block.
-Example # Translate the takeoff block into German." />
+Example # For example, translate the takeoff block into German." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://scratch3-tello.app/docs/development/i18n/" /><meta property="article:section" content="docs" />
 
@@ -25,7 +25,7 @@ Example # Translate the takeoff block into German." />
 <link rel="alternate" hreflang="ja" href="https://scratch3-tello.app/ja/docs/development/i18n/" title="多言語対応">
 
 <link rel="stylesheet" href="https://scratch3-tello.app/book.min.e935e20bd0d469378cb482f0958edf258c731a4f895dccd55799c6fbc8043f23.css" integrity="sha256-6TXiC9DUaTeMtILwlY7fJYxzGk&#43;JXczVV5nG&#43;8gEPyM=">
-<script defer src="https://scratch3-tello.app/en.search.min.10b72724b66b6e4b9880240cb3b72e7084ac7b040c37f6e57e855439b4ebead8.js" integrity="sha256-ELcnJLZrbkuYgCQMs7cucISsewQMN/blfoVUObTr6tg="></script>
+<script defer src="https://scratch3-tello.app/en.search.min.e6a5af0d58ea78df373791f4171286c5f4b92cd95722a5830ad16ad8fc03e3d9.js" integrity="sha256-5qWvDVjqeN83N5H0FxKGxfS5LNlXIqWDCtFq2PwD49k="></script>
 
 <script type="application/javascript">
 var doNotTrack = false;
@@ -280,26 +280,27 @@ https://github.com/alex-shpak/hugo-book
   Example
   <a class="anchor" href="#example">#</a>
 </h2>
-<p>Translate the <code>takeoff</code> block into German. At the moment, <code>message['takeoff']</code> looks like this</p>
+<p>For example, translate the <code>takeoff</code> block into German. At the moment, <code>message['takeoff']</code> looks like this</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">message</span> <span style="color:#f92672">=</span> {
 </span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">takeoff</span><span style="color:#f92672">:</span> {
 </span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#39;ja&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;離陸する&#39;</span>,
 </span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#39;ja-Hira&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;りりくする&#39;</span>,
 </span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#39;en&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;takeoff&#39;</span>,
 </span></span><span style="display:flex;"><span>    },
-</span></span><span style="display:flex;"><span>    ...
-</span></span><span style="display:flex;"><span>};
-</span></span></code></pre></div><p>The language code for German is <code>de</code>. Edit the following so that <code>message['takeoff']['de']</code> becomes <code>abfliegen</code>.</p>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// ...
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>};
+</span></span></code></pre></div><p>The language code for German is <code>de</code>. Edit the following so that <code>message['takeoff']['de']</code> becomes <code>abheben</code>.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">message</span> <span style="color:#f92672">=</span> {
 </span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">takeoff</span><span style="color:#f92672">:</span> {
 </span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#39;ja&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;離陸する&#39;</span>,
 </span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#39;ja-Hira&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;りりくする&#39;</span>,
 </span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#39;en&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;takeoff&#39;</span>,
-</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#39;de&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;abfliegen&#39;</span>,
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#39;de&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;abheben&#39;</span>,
 </span></span><span style="display:flex;"><span>    },
 </span></span><span style="display:flex;"><span>    ...
 </span></span><span style="display:flex;"><span>};
-</span></span></code></pre></div></article>
+</span></span></code></pre></div><p>This is done.</p>
+</article>
  
       
 
