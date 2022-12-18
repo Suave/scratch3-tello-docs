@@ -30,7 +30,3 @@ OS 別の導入ガイドはこちらです。
 - [Windows](docs/getting-started/windows)
 - [macOS](docs/getting-started/macos)
 - [Linux](docs/getting-started/linux)
-
-## スポンサー
-Scratch3-Tello の継続的な開発のために、$5/月から開始できるスポンサーを募集しています。  
-スポンサーになっていただける場合は、[Patreon](https://www.patreon.com/scratch3_tello?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=creatorshare_creator)をご利用ください。
