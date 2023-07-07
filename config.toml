@@ -4,7 +4,7 @@ title = "Scratch3-Tello"
 publishDir = "docs"
 canonifyurls = true
 theme = "book"
-googleAnalytics = "UA-188543006-1"
+googleAnalytics = "G-P3D9WLXZPL"
 
 [params]
   BookRepo = "https://github.com/kebhr/scratch3-tello-docs"
