@@ -1,14 +1,13 @@
 <!DOCTYPE html>
-<html lang="ja" dir=>
-
+<html lang="ja" dir="ltr">
 <head>
-  <meta name="generator" content="Hugo 0.101.0" />
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content=" 環境構築 # scratch3-tello リポジトリには scratch-vm と scratch-gui リポジトリに対する差分がファイル単位で格納されています。そのため、scratch3-telloをビルドするためには、scratch-vm と scratch-gui をクローンしてから、差分を適用する必要があります。
 Requirements # wget git node.js npm 作業用フォルダの作成 # $ mkdir scratch3-tello $ cd scratch3-tello 環境構築用スクリプトをダウンロードする # $ wget https://raw.githubusercontent.com/kebhr/scratch3-tello/master/build.sh $ chmod &#43;x build.sh 環境構築用スクリプトを実行する # $ ./build.sh build.sh を実行することで、自動的に scratch-vm, scratch-gui, scratch-desktop がクローンされ、scratch3-tello で管理されている変更差分が適用されます。
 Scratch3-Tello の起動 # $ cd scratch-desktop $ npm start パッケージを作成 # $ cd scratch-desktop $ npm run dist ">
-<meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="環境構築" />
+<meta name="theme-color" content="#FFFFFF">
+<meta name="color-scheme" content="light dark"><meta property="og:title" content="環境構築" />
 <meta property="og:description" content=" 環境構築 # scratch3-tello リポジトリには scratch-vm と scratch-gui リポジトリに対する差分がファイル単位で格納されています。そのため、scratch3-telloをビルドするためには、scratch-vm と scratch-gui をクローンしてから、差分を適用する必要があります。
 Requirements # wget git node.js npm 作業用フォルダの作成 # $ mkdir scratch3-tello $ cd scratch3-tello 環境構築用スクリプトをダウンロードする # $ wget https://raw.githubusercontent.com/kebhr/scratch3-tello/master/build.sh $ chmod &#43;x build.sh 環境構築用スクリプトを実行する # $ ./build.sh build.sh を実行することで、自動的に scratch-vm, scratch-gui, scratch-desktop がクローンされ、scratch3-tello で管理されている変更差分が適用されます。
 Scratch3-Tello の起動 # $ cd scratch-desktop $ npm start パッケージを作成 # $ cd scratch-desktop $ npm run dist " />
@@ -16,34 +15,31 @@ Scratch3-Tello の起動 # $ cd scratch-desktop $ npm start パッケージを�
 <meta property="og:url" content="https://scratch3-tello.app/ja/docs/development/build-env/" /><meta property="article:section" content="docs" />
 
 
-
 <title>環境構築 | Scratch3-Tello</title>
 <link rel="manifest" href="https://scratch3-tello.app/manifest.json">
 <link rel="icon" href="https://scratch3-tello.app/favicon.png" type="image/x-icon">
-<link rel="alternate" hreflang="en" href="https://scratch3-tello.app/docs/development/build-env/" title="Build Environment">
+  <link rel="alternate" hreflang="en" href="https://scratch3-tello.app/docs/development/build-env/" title="Build Environment">
+<link rel="stylesheet" href="https://scratch3-tello.app/book.min.33a48f5432973b8ff9a82679d9e45d67f2c15d4399bd2829269455cfe390b5e8.css" integrity="sha256-M6SPVDKXO4/5qCZ52eRdZ/LBXUOZvSgpJpRVz&#43;OQteg=" crossorigin="anonymous">
+  <script defer src="https://scratch3-tello.app/flexsearch.min.js"></script>
+  <script defer src="https://scratch3-tello.app/ja.search.min.80daec1c81edf27b61a04de79ff2d6189193456341fbb4bb7bb9e06e7a2fd579.js" integrity="sha256-gNrsHIHt8nthoE3nn/LWGJGTRWNB&#43;7S7e7ngbnov1Xk=" crossorigin="anonymous"></script>
 
-<link rel="stylesheet" href="https://scratch3-tello.app/book.min.e935e20bd0d469378cb482f0958edf258c731a4f895dccd55799c6fbc8043f23.css" integrity="sha256-6TXiC9DUaTeMtILwlY7fJYxzGk&#43;JXczVV5nG&#43;8gEPyM=">
-<script defer src="https://scratch3-tello.app/ja.search.min.752b254a34d92235bb7193db4801b1a17b877f1f31552a2d472694de477a8e3e.js" integrity="sha256-dSslSjTZIjW7cZPbSAGxoXuHfx8xVSotRyaU3kd6jj4="></script>
-
-<script type="application/javascript">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-P3D9WLXZPL"></script>
+<script>
 var doNotTrack = false;
 if (!doNotTrack) {
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-188543006-1', 'auto');
-	
-	ga('send', 'pageview');
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-P3D9WLXZPL', { 'anonymize_ip': false });
 }
 </script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
 -->
-
   
 </head>
-
-<body dir=>
+<body dir="ltr">
   <input type="checkbox" class="hidden toggle" id="menu-control" />
   <input type="checkbox" class="hidden toggle" id="toc-control" />
   <main class="container flex">
@@ -52,7 +48,7 @@ https://github.com/alex-shpak/hugo-book
         
   <nav>
 <h2 class="book-brand">
-  <a href="https://scratch3-tello.app/ja"><span>Scratch3-Tello</span>
+  <a class="flex align-center" href="https://scratch3-tello.app/ja/"><span>Scratch3-Tello</span>
   </a>
 </h2>
 
@@ -62,6 +58,42 @@ https://github.com/alex-shpak/hugo-book
   <div class="book-search-spinner hidden"></div>
   <ul id="book-search-results"></ul>
 </div>
+
+
+
+  
+
+
+
+  
+    
+  
+
+
+  
+
+
+<ul class="book-languages">
+  <li>
+    <input type="checkbox" id="languages" class="toggle" />
+    <label for="languages" class="flex justify-between">
+      <a role="button" class="flex align-center">
+        <img src="https://scratch3-tello.app/svg/translate.svg" class="book-icon" alt="Languages" />
+        Japanese
+      </a>
+    </label>
+
+    <ul>
+      
+      <li>
+        <a href="https://scratch3-tello.app/docs/development/build-env/">
+          English
+        </a>
+      </li>
+      
+    </ul>
+  </li>
+</ul>
 
 
 
@@ -157,7 +189,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="https://scratch3-tello.app/ja/docs/development/build-env/" class=" active">環境構築</a>
+    <a href="https://scratch3-tello.app/ja/docs/development/build-env/" class="active">環境構築</a>
   
 
         </li>
@@ -175,6 +207,24 @@ https://github.com/alex-shpak/hugo-book
 
         </li>
       
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://scratch3-tello.app/ja/docs/news/" class="">ニュース</a>
+  
+
+          
+  <ul>
     
   </ul>
 
@@ -238,7 +288,7 @@ https://github.com/alex-shpak/hugo-book
 
 
 
-  <script>(function(){var e=document.querySelector("aside.book-menu nav");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
 
 
  
@@ -340,60 +390,23 @@ https://github.com/alex-shpak/hugo-book
         
   <div class="flex flex-wrap justify-between">
 
-  
-
-
-
-  
-    
-  
-    
-  
-
-
-  
-
-
-<div class="book-languages" tabindex="0" aria-haspopup="true">
-  <ul>
-    <li class="flex align-center">
-      <img src="https://scratch3-tello.app/svg/translate.svg" class="book-icon" alt="Languages" />
-      Japanese
-    </li> 
-  </ul>
-
-  <ul class="book-languages-list">
-    
-    <li class="">
-      <a href="https://scratch3-tello.app/docs/development/build-env/" class="flex align-center">
-        <img src="https://scratch3-tello.app/svg/translate.svg" class="book-icon" alt="Languages" />
-        English
-      </a>
-    </li>
-    
-    <li class="active">
-      <a href="https://scratch3-tello.app/ja/" class="flex align-center">
-        <img src="https://scratch3-tello.app/svg/translate.svg" class="book-icon" alt="Languages" />
-        Japanese
-      </a>
-    </li>
-    
-  </ul>
-</div>
-
-
-
 
 
 
   <div>
-    <a class="flex align-center" href="https://github.com/kebhr/scratch3-tello-docs/edit/master/content.ja/docs/development/build-env.md" target="_blank" rel="noopener">
+    <a class="flex align-center" href="https://github.com/kebhr/scratch3-tello-docs/edit/master/content/docs/development/build-env.md" target="_blank" rel="noopener">
       <img src="https://scratch3-tello.app/svg/edit.svg" class="book-icon" alt="Edit" />
       <span>このページを編集する</span>
     </a>
   </div>
 
+
 </div>
+
+
+
+  <script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script>
+
 
  
         
@@ -435,7 +448,6 @@ https://github.com/alex-shpak/hugo-book
 
   
 </body>
-
 </html>
 
 

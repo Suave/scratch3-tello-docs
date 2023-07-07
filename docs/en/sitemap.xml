@@ -86,6 +86,18 @@
                 href="https://scratch3-tello.app/docs/getting-started/linux/"
                 />
   </url><url>
+    <loc>https://scratch3-tello.app/docs/news/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://scratch3-tello.app/ja/docs/news/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://scratch3-tello.app/docs/news/"
+                />
+  </url><url>
     <loc>https://scratch3-tello.app/docs/privacy/</loc>
     <xhtml:link
                 rel="alternate"
